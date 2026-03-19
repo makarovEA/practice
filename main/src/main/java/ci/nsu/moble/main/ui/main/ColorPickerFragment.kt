@@ -24,7 +24,8 @@ class ColorPickerFragment : Fragment() {
         "белый" to Color.WHITE,
         "серый" to Color.GRAY,
         "пурпурный" to Color.MAGENTA,
-        "голубой" to Color.CYAN
+        "голубой" to Color.CYAN,
+        "коричневый" to Color.rgb(150,75,0)
     )
 
     private lateinit var etColorName: EditText
@@ -55,7 +56,6 @@ class ColorPickerFragment : Fragment() {
                 } else {
                     // Цвет не найден – логируем и оставляем кнопку без изменений
                     Log.d("ColorPicker", "Пользовательский цвет \"$inputColorName\" не найден")
-                    // Можно также показать Toast, но по условию достаточно лога
                 }
             }
         }
