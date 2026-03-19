@@ -25,7 +25,8 @@ class ColorPickerFragment : Fragment() {
         "серый" to Color.GRAY,
         "пурпурный" to Color.MAGENTA,
         "голубой" to Color.CYAN,
-        "коричневый" to Color.rgb(150,75,0)
+        "коричневый" to Color.rgb(150,75,0),
+        "cеробуромалиновый" to Color.rgb(115, 81, 132)
     )
 
     private lateinit var etColorName: EditText
