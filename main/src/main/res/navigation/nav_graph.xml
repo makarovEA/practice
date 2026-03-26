@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="ci.nsu.moble.main.ui.main.FirstFragment"
+        android:label="Первый экран" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="ci.nsu.moble.main.ui.main.SecondFragment"
+        android:label="Второй экран" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="ci.nsu.moble.main.ui.main.ThirdFragment"
+        android:label="Третий экран" />
+</navigation>
