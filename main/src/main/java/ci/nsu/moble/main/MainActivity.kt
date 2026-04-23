@@ -7,13 +7,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.yourapp.ui.counter.CounterScreen
+import ci.nsu.moble.main.ui.counter.CounterScreen
+import ci.nsu.moble.main.ui.main.YourAppTheme // замените на имя вашей темы, если отличается
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            YourAppTheme {
+            YourAppTheme { // или MaterialTheme, если тема не создана
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
